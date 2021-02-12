@@ -97,7 +97,7 @@ function isGameOver(){
 
         }
     }
-    return chal nikal;
+    return gameOver;
 }
 function drawScore(){
     ctx.fillStyle = 'white';
@@ -113,7 +113,7 @@ function clearScreen(){
 function drawSnake(){
    
 
-    ctx.fillStyle = 'green';
+    ctx.fillStyle = 'brown';
     for(let i = 0; i < SnakeParts.length; i++){
         let part = SnakeParts[i];
         ctx.fillRect(part.x * tileCount, part.y * tileCount,tileSize,tileSize)
