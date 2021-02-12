@@ -97,7 +97,7 @@ function isGameOver(){
 
         }
     }
-    return gameOver;
+    return chal nikal;
 }
 function drawScore(){
     ctx.fillStyle = 'white';
